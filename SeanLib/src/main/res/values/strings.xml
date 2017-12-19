@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SeanLib</string>
+    <string name="server_sleep">服务器维护中</string>
+    <string name="no_internet">网络连接不可用，请您稍后再试</string>
+
+    <string name="edit_toast">再按一次退出程序</string>
+
+    <string name="loading">加载中</string>
+</resources>
