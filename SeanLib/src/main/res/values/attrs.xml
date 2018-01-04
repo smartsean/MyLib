@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineEditText">
+        <attr name="line_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleBar">
+        <attr name="tb_title" format="string"/>
+        <attr name="tb_titleSize" format="dimension"/>
+        <attr name="tb_titleColor" format="color"/>
+        <attr name="tb_backIcon" format="reference"/>
+        <attr name="tb_maxTitleWidth" format="dimension"/>
+        <attr name="tb_showDivider" format="boolean"/>
+        <attr name="tb_divider" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested"/>
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested"/>
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested"/>
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested"/>
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested"/>
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested"/>
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested"/>
+        <attr name="mrl_rippleBackground" format="color" localization="suggested"/>
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested"/>
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested"/>
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested"/>
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested"/>
+        <attr name="mrl_rippleTopLeftRoundedCorners" format="dimension" localization="suggested"/>
+        <attr name="mrl_rippleTopRightRoundedCorners" format="dimension" localization="suggested"/>
+        <attr name="mrl_rippleBottomLeftRoundedCorners" format="dimension" localization="suggested"/>
+        <attr name="mrl_rippleBottomRightRoundedCorners" format="dimension" localization="suggested"/>
+    </declare-styleable>
+</resources>
+

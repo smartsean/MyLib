@@ -53,7 +53,7 @@ public class ToastUtil {
 
         if (null == context) return;
         if (obj instanceof String) {
-            if (EmptyUtils.isEmpty(String.valueOf(obj))) {
+            if (DataUtils.isEmpty(String.valueOf(obj))) {
                 Toast.makeText(context, context.getResources().getString(R.string
                         .server_sleep), Toast.LENGTH_SHORT).show();
             } else {
@@ -82,7 +82,7 @@ public class ToastUtil {
     public static void toastError(Context context, String str) {
 
         if (null == context) return;
-        if (EmptyUtils.isEmpty(str)) {
+        if (DataUtils.isEmpty(str)) {
             Toast.makeText(context, context.getResources().getString(R.string.server_sleep)
                     , Toast.LENGTH_SHORT).show();
         } else {

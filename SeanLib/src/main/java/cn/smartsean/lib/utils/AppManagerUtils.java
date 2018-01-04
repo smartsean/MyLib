@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import java.util.List;
 
 /**
+ * app管理类
  * Created by SmartSean on 17/8/30 18:04.
  */
 

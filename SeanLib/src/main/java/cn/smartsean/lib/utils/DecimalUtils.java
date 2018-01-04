@@ -5,6 +5,7 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 /**
+ * 小数操作工具类
  * Created by SmartSean on 17/8/21 11:22.
  */
 

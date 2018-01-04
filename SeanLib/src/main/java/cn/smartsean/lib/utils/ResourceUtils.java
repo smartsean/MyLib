@@ -8,6 +8,7 @@ import android.graphics.drawable.Drawable;
  */
 
 public class ResourceUtils {
+
     public static final String LAYTOUT = "layout";
     public static final String DRAWABLE = "drawable";
     public static final String MIPMAP = "mipmap";
@@ -35,7 +36,12 @@ public class ResourceUtils {
         return context.getResources().getString(strId);
     }
 
-
+    /**
+     * 获得Gradle中定义的字符串
+     * @param context
+     * @param strId
+     * @return
+     */
     public static String getGradleString(Context context, int strId) {
         return context.getResources().getString(strId);
     }

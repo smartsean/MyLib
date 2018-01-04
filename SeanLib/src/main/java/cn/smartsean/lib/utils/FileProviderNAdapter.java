@@ -11,11 +11,17 @@ import java.io.File;
 import java.util.List;
 
 /**
- * @author SmartSean
- * @date 17/12/19 22:25
+ * Android N 适配工具类
+ * @author SmartSean on 17/12/19 22:25
  */
 public class FileProviderNAdapter {
 
+    /**
+     * 获取Uri
+     * @param context
+     * @param file
+     * @return
+     */
     public static Uri getUriForFile(Context context, File file) {
         Uri fileUri = null;
         if (Build.VERSION.SDK_INT >= 24) {
@@ -26,7 +32,12 @@ public class FileProviderNAdapter {
         return fileUri;
     }
 
-
+    /**
+     * Android N 获取Uri
+     * @param context
+     * @param file
+     * @return
+     */
     public static Uri getUriForFile24(Context context, File file) {
         Uri fileUri = android.support.v4.content.FileProvider.getUriForFile(context,
                 context.getPackageName() + ".androidN.fileProvider",
@@ -34,6 +45,14 @@ public class FileProviderNAdapter {
         return fileUri;
     }
 
+    /**
+     * 设置Uri和Type
+     * @param context
+     * @param intent
+     * @param type
+     * @param file
+     * @param writeAble
+     */
     public static void setIntentDataAndType(Context context,
                                             Intent intent,
                                             String type,
@@ -50,7 +69,13 @@ public class FileProviderNAdapter {
         }
     }
 
-
+    /**
+     * 设置Intent
+     * @param context
+     * @param intent
+     * @param file
+     * @param writeAble
+     */
     public static void setIntentData(Context context,
                                      Intent intent,
                                      File file,
@@ -66,7 +91,13 @@ public class FileProviderNAdapter {
         }
     }
 
-
+    /**
+     * 授予权限
+     * @param context
+     * @param intent
+     * @param uri
+     * @param writeAble
+     */
     public static void grantPermissions(Context context, Intent intent, Uri uri, boolean writeAble) {
 
         int flag = Intent.FLAG_GRANT_READ_URI_PERMISSION;

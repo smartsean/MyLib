@@ -6,6 +6,7 @@ import android.net.NetworkInfo;
 import android.telephony.TelephonyManager;
 
 /**
+ * 网络相关工具类
  * @author smartsean on 17/11/6 16:36
  */
 public class NetWorkUtils {

@@ -18,10 +18,15 @@ import java.util.Map;
 /**
  * Created by SmartSean on 17/9/22 13:41.
  */
-
 public class DataUtils {
 
-
+    /**
+     * 解析json防止字符串为null
+     *
+     * @param object
+     * @param s
+     * @return
+     */
     public static String getObjString(JSONObject object, String s) {
         String string = object.getString(s);
         return isEmpty(string) ? "" : string;
@@ -51,7 +56,11 @@ public class DataUtils {
         }
     }
 
-
+    /**
+     * 给int一个默认值
+     * @param i
+     * @return
+     */
     public static int getDefaultInt(int i) {
         return isEmpty(i) ? 0 : i;
     }

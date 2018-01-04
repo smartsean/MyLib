@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.inputmethod.InputMethodManager;
 
 /**
+ * 键盘操作工具类
  * @author SmartSean on 17/9/8 18:34
  */
 public class KeyBoardUtil {

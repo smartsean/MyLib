@@ -1,6 +1,7 @@
 package cn.smartsean.lib.utils;
 
 /**
+ * 获取错误信息工具类
  * Created by SmartSean on 17/8/21 11:16.
  */
 

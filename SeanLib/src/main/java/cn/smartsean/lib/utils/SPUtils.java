@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * SharePreference操作工具类
  * Created by SmartSean on 17/8/21 12:38.
  */
 public final class SPUtils {

@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
+ * Assets工具类
  * @author smartsean on 17/11/24 10:59
  */
 public class AssestsUtils {

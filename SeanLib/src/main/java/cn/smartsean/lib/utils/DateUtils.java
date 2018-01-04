@@ -11,9 +11,9 @@ import java.util.Date;
 
 public class DateUtils {
 
-    public static final String YYYY_MM_DD_FORMAT = "yyyy-MM-dd";
-    public static final String HH_MM_SS_FORMAT = "HH:mm:ss";
-    public static final String YYYY_MM_DD_HH_MM_SS_FORMAT = "yyyy-MM-dd HH:mm:ss";
+    private static final String YYYY_MM_DD_FORMAT = "yyyy-MM-dd";
+    private static final String HH_MM_SS_FORMAT = "HH:mm:ss";
+    private static final String YYYY_MM_DD_HH_MM_SS_FORMAT = "yyyy-MM-dd HH:mm:ss";
 
 //    public static final SimpleDateFormat YYYY_MM_DD_FORMAT = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
 //    public static final SimpleDateFormat HH_MM_SS_FORMAT = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());

@@ -3,9 +3,10 @@ package cn.smartsean.lib.utils;
 import android.hardware.Camera;
 
 /**
+ * 相机工具类
+ *
  * @author smartsean on 17/10/30 16:01
  */
-
 public class CameraUtils {
     /**
      * 返回true 表示可以使用  返回false表示不可以使用

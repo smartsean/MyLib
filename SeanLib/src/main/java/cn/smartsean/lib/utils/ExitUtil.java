@@ -6,6 +6,7 @@ import android.view.KeyEvent;
 import android.widget.Toast;
 
 /**
+ * 退出app工具类
  * Created by SmartSean on 17/8/21 11:18.
  */
 
