@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogBaseAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
+    </style>
+    <style name="DialogAnimFromCenter" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_from_center_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_from_center_out</item>
+    </style>
+
+</resources>
